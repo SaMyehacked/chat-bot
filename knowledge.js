@@ -1623,7 +1623,7 @@ const knowledgeBase = {
     
     // Bangla (200+)
     "হ্যালো": "হ্যালো! আমি কিভাবে আপনাকে সাহায্য করতে পারি?",
-    "আপনার নাম কি": "আমার নাম নেক্সাস, আপনার AI সহকারী",
+    "আপনার নাম কি": "আমার নাম PSYCHO, আপনার AI সহকারী",
     
     // Default fallback
     "default": "ki bal kou?? kichu bujhi na , Amake ki chat gpt Vabsis? ami ekta choto khato cute ekta bot, Normal kichu ask kor Mc"
