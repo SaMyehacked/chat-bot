@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initial greeting (only on first load)
     if (sessionStorage.getItem('firstLoad') === null) {
-        addMessage("Hello! I'm Nexus AI. Ask me anything!", false);
+        addMessage("Hello! I'm PSYCHO AI. Ask me anything!", false);
         sessionStorage.setItem('firstLoad', 'done');
     }
 
