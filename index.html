@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musfiqure's Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <span>MR AI</span>
+            </div>
+            <div class="status">
+                <span class="status-dot"></span>
+                <span class="status-text">Online</span>
+                <button id="save-chat" title="Save Conversation"><i class="fas fa-download"></i></button>
+            </div>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            
+                
+            Hello! I'm Nexus, your AI assistant. How can I help you today?
+       
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+            <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <audio id="typing-sound" src="assets/typing.mp3" preload="auto"></audio>
+    <audio id="pop-sound" src="assets/pop.mp3" preload="auto"></audio>
+
+    <script src="knowledge.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
