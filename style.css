@@ -133,11 +133,11 @@ body {
 }
 
 .bot-message {
-    align-self: flex-start;
-    background: rgba(255,255,255,0.15);
-    color: white;
+    background: rgba(255,255,255,0.2);
+    color: black; /* change this */
     border-bottom-left-radius: 4px;
 }
+
 
 .message-content {
     font-size: 14px;
