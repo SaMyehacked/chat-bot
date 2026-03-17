@@ -1602,6 +1602,10 @@ const knowledgeBase = {
 "tomar name ki": "Ami ekta AI bot, nam Nexus. Tumi ki amar shathe kotha bolte chao?",
 "tumi ki chhobi banate paro": "Na, ami chhobi banate pari na, kintu kichu code likhe tomay help korte pari!",
 "tumi ki ghumate paro": "Ami AI, ghumate pari na. Kintu tumi jodi ghumate chao, ami tomay shanti dite pari!",
+    "prem korbi": "tui hijla tor sathe prem korbo na ja vag",
+     "prem korbi amr sathe?": "tui hijla tor sathe prem korbo na ja vag",
+     "prem korbi amr sathe": "tui hijla tor sathe prem korbo na ja vag",
+
 
 
 
