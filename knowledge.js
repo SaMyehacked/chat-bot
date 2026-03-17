@@ -3,8 +3,10 @@ const knowledgeBase = {
     // Greetings (100+ variations)
     
         // ================= GREETINGS (100) =================
-        "hi": "Hello there!",
-        "hello": "Hi! How can I help you today?",
+        "hi": "ki chas",
+         "kire": "ki chas ??",
+    
+        "hello": "dure jaya mor ami chat gpt na?",
         "hey": "Hey! What's up?",
         "good morning": "Good morning! Have a great day!",
         "good afternoon": "Good afternoon! How's your day going?",
