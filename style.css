@@ -5,7 +5,7 @@
     --secondary: #9d50bb;
     --glass: rgba(255, 255, 255, 0.1);
     --glass-strong: rgba(255, 255, 255, 0.2);
-    --text: #ffffff;
+    --text-dark: #111; /* কালো টেক্সট */
     --text-light: rgba(255, 255, 255, 0.7);
 }
 
@@ -56,14 +56,14 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(255,255,255,0.08);
-    color: black; /* ADD THIS */
+    color: var(--text-dark); /* কালো টেক্সট */
 }
 
 .logo {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: var(--text);
+    color: var(--text-dark); /* কালো টেক্সট */
     font-weight: 600;
 }
 
@@ -91,13 +91,13 @@ body {
 #save-chat {
     background: none;
     border: none;
-    color: var(--text-light);
+    color: var(--text-dark); /* কালো */
     cursor: pointer;
     transition: 0.3s;
 }
 
 #save-chat:hover {
-    color: white;
+    color: var(--secondary);
     transform: scale(1.1);
 }
 
@@ -129,16 +129,15 @@ body {
 .user-message {
     align-self: flex-end;
     background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: black;
+    color: white; /* ইউজার মেসেজে সাদা টেক্সট */
     border-bottom-right-radius: 4px;
 }
 
 .bot-message {
-    background: rgba(255,255,255,0.2);
-    color: black; /* change this */
+    background: rgba(255,255,255,0.8); /* হালকা সাদা ব্যাকগ্রাউন্ড */
+    color: var(--text-dark); /* কালো টেক্সট */
     border-bottom-left-radius: 4px;
 }
-
 
 .message-content {
     font-size: 14px;
@@ -171,20 +170,20 @@ body {
     padding: 10px 14px;
     border-radius: 25px;
     border: none;
-    background: rgba(255,255,255,0.15);
-    color: black;
+    background: rgba(255,255,255,0.9); /* হালকা সাদা ব্যাকগ্রাউন্ড */
+    color: var(--text-dark); /* কালো টেক্সট */
     outline: none;
     transition: 0.3s;
     font-size: 14px;
 }
 
 .chat-input input:focus {
-    background: rgba(255,255,255,0.25);
+    background: rgba(255,255,255,1);
     box-shadow: 0 0 0 2px rgba(157,80,187,0.4);
 }
 
 .chat-input input::placeholder {
-    color: rgba(255,255,255,0.6);
+    color: rgba(0,0,0,0.5); /* placeholder কালো ছায়া */
 }
 
 /* Send Button */
