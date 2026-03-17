@@ -189,7 +189,7 @@ body {
     border: none;
     border-radius: 50%;
     background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
-    color: white;
+    color: black;
     font-size: 18px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -219,7 +219,7 @@ body {
 }
 
 .chat-messages::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 255, 0.3);
 }
 
 /* Responsive adjustments */
